@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
     <title>FORMULAIRE</title>
 </head>
 <body>
-    <h1>CREATION DE FORMULAIRE</h1>
+    <h1 class="formulaire">CREATION DE FORMULAIRE</h1>
     <!--balise permettant d'afficher un element dans un ecran-->
+    <label for="etoile">*</label>
     <label for="nom">Nom</label><br>
     <!--balise permettant d'inserer un champ de saisi-->
     <input type="text" name="Nom" required placeholder="Entrez votre nom"><br>
+    <label for="etoile">*</label>
     <label for="prenom">Prenom</label><br>
     <input type="text" name="Prenom" placeholder="Entrez votre prenom"><br>
+    <label for="etoile">*</label>
     <label for="email">E-mail</label><br>
     <input type="email" name="E-mail" placeholder="exemple@gmail.com"><br>
+    <label for="etoile">*</label>
     <label for="age">Age</label><br>
     <input type="text" name="Age" placeholder="Entrez votre age"><br>
     <!--paragraphe-->
-    <p>Est ce que tu recommanderais Automation Tester Academy à un ami?</p><br>
+    <label for="Automation">Est ce que tu recommenderais l'Automation tester Academy à un ami?</label><br>
     <!--creation du bouton radion avant d'afficher un element-->
     <input type="radio" name="radio" value="Oui">
     <label for="oui">OUI</label><br>
@@ -27,7 +32,7 @@
     <input type="radio" name="radio" value="Peut-être">
     <label for="peut-être">Peut-être</label><br>
     <!--paragraphe-->
-    <p>Frameworks d'automatisation de test que vous connaissez</p>
+    <label for="Frameworks">Frameworks d'automatisation de test que vous connaissez</label>
     <input type="checkbox" name="Cypress" required placeholder="Cypress">
     <label for="Cypress">Cypress</label><br>
     <input type="checkbox" name="Selenium Webdriver" value="Selenium Webdriver">
@@ -38,7 +43,7 @@
     <label for="Appium">Appium</label><br>
     <input type="checkbox" name="Calabash" value="Calabash">
     <label for="Calabash">Calabash</label><br>
-    <p>Comment trouvez vous HTML?</p>
+    <label for="Html">Comment trouvez vous HTML?</label>
     <select name="HTML">
         <option value="facile" selected>Facile</option>
         <option value="passionant">Passionant</option>
@@ -47,8 +52,8 @@
     </select> 
     <p>Vos suggestions pour la formation</p><br>
     <input type="text" name="suggestions" placeholder="suggestions"><br>
-    <input type="button" value="Envoyer"><br>
-    <input type="button" value="Annuler">
+    <input type="submit" value="Envoyer"><br>
+    <input type="reset" value="Annuler">
 
 
 

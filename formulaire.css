@@ -1,0 +1,13 @@
+.formulaire{
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: solid;
+    border: 1px solid;
+    border-radius: 3px;/*angle de bordure*/
+    margin-right: 130px;/*marge a droite*/
+    margin-left: 130px;/*marge a gauche*/
+}
+form label[for="etoile"]{
+    color: darkred;
+}
