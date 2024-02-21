@@ -6,7 +6,57 @@
     <title>FORMULAIRE</title>
 </head>
 <body>
+    <h1>CREATION DE FORMULAIRE</h1>
+    <!--balise permettant d'afficher un element dans un ecran-->
+    <label for="nom">Nom</label><br>
+    <!--balise permettant d'inserer un champ de saisi-->
+    <input type="text" name="Nom" required placeholder="Entrez votre nom"><br>
+    <label for="prenom">Prenom</label><br>
+    <input type="text" name="Prenom" placeholder="Entrez votre prenom"><br>
+    <label for="email">E-mail</label><br>
+    <input type="email" name="E-mail" placeholder="exemple@gmail.com"><br>
+    <label for="age">Age</label><br>
+    <input type="text" name="Age" placeholder="Entrez votre age"><br>
+    <!--paragraphe-->
+    <p>Est ce que tu recommanderais Automation Tester Academy à un ami?</p><br>
+    <!--creation du bouton radion avant d'afficher un element-->
+    <input type="radio" name="radio" value="Oui">
+    <label for="oui">OUI</label><br>
+    <input type="radio" name="radio" value="Non">
+    <label for="oui">Non</label><br>
+    <input type="radio" name="radio" value="Peut-être">
+    <label for="peut-être">Peut-être</label><br>
+    <!--paragraphe-->
+    <p>Frameworks d'automatisation de test que vous connaissez</p>
+    <input type="checkbox" name="Cypress" required placeholder="Cypress">
+    <label for="Cypress">Cypress</label><br>
+    <input type="checkbox" name="Selenium Webdriver" value="Selenium Webdriver">
+    <label for="Selenium Webdriver">Selenium Webdriver</label><br>
+    <input type="checkbox" name="Protractor" value="Protractor">
+    <label for="Protractor">Protractor</label><br>
+    <input type="checkbox" name="Appium" value="Appium">
+    <label for="Appium">Appium</label><br>
+    <input type="checkbox" name="Calabash" value="Calabash">
+    <label for="Calabash">Calabash</label><br>
+    <p>Comment trouvez vous HTML?</p>
+    <select name="HTML">
+        <option value="facile" selected>Facile</option>
+        <option value="passionant">Passionant</option>
+        <option value="difficile">difficile</option>
+        <option value="compliqué">Compliqué</option>
+    </select> 
+    <p>Vos suggestions pour la formation</p><br>
+    <input type="text" name="suggestions" placeholder="suggestions"><br>
+    <input type="button" value="Envoyer"><br>
+    <input type="button" value="Annuler">
+
+
+
+
     
+    
+
+
     
 </body>
 </html>
